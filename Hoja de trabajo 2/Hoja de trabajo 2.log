@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.24)  2 AUG 2018 09:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.24)  2 AUG 2018 10:42
 entering extended mode
 **"./Hoja de trabajo 2.tex"
 ("Hoja de trabajo 2.tex"
@@ -209,8 +209,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks23
 
 ("C:\Users\Jorge Marroquin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry
-\geometry.cfg"))
-No file "Hoja de trabajo 2".aux.
+\geometry.cfg")) ("Hoja de trabajo 2.aux"
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
 \openout1 = `"Hoja de trabajo 2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -348,16 +350,16 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/Jorge Marroquin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (
-"Hoja de trabajo 2.aux"
+{C:/Users/Jorge Marroquin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [
+2] ("Hoja de trabajo 2.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 3750 strings out of 492973
- 53292 string characters out of 3122260
- 132979 words of memory out of 3000000
- 7566 multiletter control sequences out of 15000+200000
+ 3754 strings out of 492973
+ 53431 string characters out of 3122260
+ 133979 words of memory out of 3000000
+ 7568 multiletter control sequences out of 15000+200000
  6551 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,4n,31p,288b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -372,9 +374,9 @@ ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jorge Marr
 oquin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
 ><C:/Users/Jorge Marroquin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on "Hoja de trabajo 2.pdf" (1 page, 84016 bytes).
+Output written on "Hoja de trabajo 2.pdf" (2 pages, 87012 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

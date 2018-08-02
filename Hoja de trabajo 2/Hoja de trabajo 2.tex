@@ -55,12 +55,28 @@
 \item {Todo número elevado a la 0 es 1:\\ $ 1 \geq 0$}
 \end{enumerate}
 
-\textbf{Caso inductivo:}
-\begin{enumerate}
-\item{$(1+x)^{(n + 1)}\geq (n + 1)x + 1$}
-\item{$(1+x)^{(n + 1)}\geq nx + x + 1$}
-\item{$(1+x).(1+x)^n\geq nx + x + 1$}
+\textbf{Caso inductivo:}\\
 
+\textbf{Caso 1: $-1 \leq x \leq 0$}
+\begin{enumerate}
+\item{$(1+x)^{(n + 1)}\leq (n + 1)x$}
+\item{$(1+x)^{(n + 1)}\leq nx + x$}
+\item{$(1+x).(1+x)^n\leq nx + x$}
+\item{$(1+x)^n.x(1+x)^n\leq nx + x$}
+\item{$(1+x)^n $equivale a nx, por lo tanto: \\$nx . x(nx)\leq nx + x$}
+\item{$nx/nx $ equivale a 1, por lo tanto: \\$x(nx)\leq x$}
+\item{Comprobación $nx \leq 1$ cuando $-1 \leq x \leq 0$}
+\end{enumerate}
+\textbf{Caso 2: $x \geq 0$}
+\begin{enumerate}
+\item{$(1+x)^{(n + 1)}\geq (n + 1)x$}
+\item{$(1+x)^{(n + 1)}\geq nx + x$}
+\item{$(1+x).(1+x)^n\geq nx + x$}
+\item{$(1+x)^n.x(1+x)^n\geq nx + x$}
+\item{$(1+x)^n $equivale a nx, por lo tanto: \\$nx . x(nx)\geq nx + x$}
+\item{$nx/nx $ equivale a 1, por lo tanto: \\$x(nx)\geq x$}
+\item{$x/x $ equivale a 1, por lo tanto: \\$nx \geq 1$}
+\item{Comprobación $nx \geq 1$ cuando $-1 \leq x \geq 0$}
 \end{enumerate}
 \end{flushleft}
 \end{document}
