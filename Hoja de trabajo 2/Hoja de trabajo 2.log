@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.24)  1 AUG 2018 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.24)  2 AUG 2018 09:12
 entering extended mode
-**"./Hoja de trabajo 1.tex"
-("Hoja de trabajo 1.tex"
+**"./Hoja de trabajo 2.tex"
+("Hoja de trabajo 2.tex"
 LaTeX2e <2018-04-01> patch level 5
 
 ("C:\Users\Jorge Marroquin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\art
@@ -209,11 +209,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks23
 
 ("C:\Users\Jorge Marroquin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry
-\geometry.cfg")) ("Hoja de trabajo 1.aux"
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-)
-\openout1 = `"Hoja de trabajo 1.aux"'.
+\geometry.cfg"))
+No file "Hoja de trabajo 2".aux.
+\openout1 = `"Hoja de trabajo 2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -307,16 +305,16 @@ G,.JBIG2,.JB2,.eps]
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-52.36449pt
@@ -324,7 +322,7 @@ G,.JBIG2,.JB2,.eps]
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
+* \marginparwidth=65.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -337,60 +335,46 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-<dado.png, id=1, 524.96124pt x 235.88126pt>
-File: dado.png Graphic file (type png)
-<use dado.png>
-Package pdftex.def Info: dado.png  used on input line 23.
-(pdftex.def)             Requested size: 256.0748pt x 115.06453pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 
 ("C:\Users\Jorge Marroquin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts
 \umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 ("C:\Users\Jorge Marroquin\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts
 \umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (150.00015pt too wide) detected at line 40
-[]
- []
+) [1
 
-[1
-
-{C:/Users/Jorge Marroquin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <.
-/dado.png>] ("Hoja de trabajo 1.aux"
+{C:/Users/Jorge Marroquin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (
+"Hoja de trabajo 2.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 3753 strings out of 492973
- 53400 string characters out of 3122260
- 131985 words of memory out of 3000000
- 7565 multiletter control sequences out of 15000+200000
+ 3750 strings out of 492973
+ 53292 string characters out of 3122260
+ 132979 words of memory out of 3000000
+ 7566 multiletter control sequences out of 15000+200000
  6551 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,31p,288b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,4n,31p,288b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Jorge Marroquin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb><C:/Users/Jorge Marroquin/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jorge Marroquin/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Use
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Use
 rs/Jorge Marroquin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Users/Jorge Marroquin/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jorge Marroquin/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jorge Mar
-roquin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb>
-Output written on "Hoja de trabajo 1.pdf" (1 page, 169933 bytes).
+s/cm/cmmi7.pfb><C:/Users/Jorge Marroquin/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jorge Marroquin/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jorge Marr
+oquin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+><C:/Users/Jorge Marroquin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb>
+Output written on "Hoja de trabajo 2.pdf" (1 page, 84016 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
