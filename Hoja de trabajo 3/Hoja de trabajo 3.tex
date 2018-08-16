@@ -1,0 +1,165 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\begin{document}
+
+\begin{center}
+        \huge{Hoja de trabajo \#3} \\
+\end{center}
+\begin{center}
+        \textbf{Nombre: }Jorge Armando Marroquín Ochoa\\
+        \textbf{Carnet: }2018358\\
+        \textbf{Correo: }marroquin181358@unis.edu.gt\\
+\end{center}
+\section{Ejercicio \#1}
+
+\textbf{Sumar} 
+Tres $[s(s(s(0)))] $ y cuatro $ [s(s(s(s(0))))]$
+\begin{itemize}
+\item{$[s(s(s(0)))] \oplus [s(s(s(s(0))))]$}
+\item{$s(s(s(0 \oplus s(s(s(s(0))))))) $}
+\item{$s(s(s(s(0 \oplus s(s(s(0))))))) $}
+\item{$s(s(s(s(s(0 \oplus s(s(0))))))) $}
+\item{$s(s(s(s(s(s(s(0 \oplus 0))))))) $}
+\item{$s(s(s(s(s(s(s(0))))))) $}
+\end{itemize}
+
+
+\section{Ejercicio \#2}
+\begin{flushleft}
+\textbf{Multiplicación:}
+\end{flushleft}
+\[
+        a\otimes b := \left\{
+        \begin{array}{l l}
+            a & \mbox{si } b = s(0) \\
+            b & \mbox{si } a = s(0) \\
+            0 & \mbox{si } a = 0 \vee m = 0\\
+            0 & \mbox{si } a = 0 \wedge m = 0\\
+            a \oplus (a \otimes j) & \mbox{si } b = s(j) \\
+        \end{array}
+        \right.
+    \]
+
+
+\section{Ejercicio \#3}
+
+\begin{flushleft}
+\textbf{Utilizar la definición de multiplicación.}
+\begin{enumerate}
+\item{$s(s(s(0))) \otimes 0$}
+
+\begin{itemize}
+\item{Por definición es 0}
+\end{itemize}
+
+\item{$s(s(s(0))) \otimes s(0)$}
+
+\begin{itemize}
+\item{Por definición es s(s(s(0)))}
+\end{itemize}
+
+\item{$s(s(s(0))) \otimes s(s(0))$}
+
+\begin{itemize}
+\item{$s(s(s(0))) \oplus [s(s(s(0))) \otimes s(0)]$}
+\item{$s(s(s(0))) \oplus s(s(s(0))) \oplus [s(s(s(0))) \otimes 0]$}
+\item{$s(s(s(0))) \oplus s(s(s(0))) \oplus 0$}
+\item{$s(s(s(0))) \oplus s(s(s(0)))$}
+\item{$s(s(s(0 \oplus s(s(s(0)))))) $}
+\item{$s(s(s(s(0 \oplus s(s(0)))))) $}
+\item{$s(s(s(s(s(0 \oplus s(0)))))) $}
+\item{$s(s(s(s(s(s(0 \oplus 0)))))) $}
+\item{$s(s(s(s(s(s(0)))))) $}
+\end{itemize}
+
+\end{enumerate}
+\end{flushleft}
+
+\section{Ejercicio \#4}
+
+\begin{flushleft}
+\textbf{Definir por inducción.}
+\begin{enumerate}
+\item{$a \oplus s(s(0) = s(s(a)$}\\
+\textbf{Caso base:}
+\begin{itemize}
+\item{$0 \oplus s(s(0) = s(s(0)$}
+\item{$s(s(0 \oplus 0) = s(s(0)$}
+\item{$s(s(0) = s(s(0)$}
+\end{itemize}
+
+\textbf{Hipótesis inductiva:}
+\begin{itemize}
+\item{$a \oplus s(s(0) = s(s(a)$}
+\item{$s(s(0) = s(s(a \ominus a)$}
+\item{$s(s(0) = s(s(0)$}
+\end{itemize}
+
+
+\item{$a \otimes b = b \otimes a$}\\
+\textbf{Caso base:}
+\begin{itemize}
+\item{$0 \otimes 0 = 0 \otimes 0$}
+\item{$0 = 0$}
+
+\end{itemize}
+
+\textbf{Hipótesis inductiva:}
+\begin{itemize}
+\item{$a \otimes b = b \otimes a$}
+\item{$(a + 1) \otimes (b + 1)= (b + 1) \otimes (a + 1)$}
+\item{$a \otimes b + a + b + 1 = b \otimes a + b + a + 1$}
+\item{$a \otimes b = b \otimes a + b - b + a - a + 1 - 1$}
+\item{$a \otimes b = b \otimes a + 0 + 0 + 0$}
+\item{$a \otimes b = b \otimes a $}
+\end{itemize}
+
+
+\item{$a \otimes (b  \otimes c) = (a \otimes b)  \otimes c$}\\
+\textbf{Caso base:}
+\begin{itemize}
+\item{$0 \otimes (0  \otimes 0) = (0 \otimes 0)  \otimes 0$}
+\item{$0 \otimes (0) = (0)  \otimes 0$}
+\item{$0 = 0$}
+
+\end{itemize}
+
+\textbf{Hipótesis inductiva:}
+\begin{itemize}
+\item{$a \otimes (b  \otimes c) = (a \otimes b)  \otimes c$}
+\item{$s(i) \otimes (b  \otimes c) = (s(i) \otimes b)  \otimes c$}
+\item{$s(i) \oplus (s(i) \otimes (b  \otimes c)) = (s(i) \oplus (s(i) \otimes b))  \otimes c$}
+\item{$s(i) \oplus (s(i) \otimes (b  \otimes c)) = s(i) \oplus (s(i) \otimes (b  \otimes c))$}
+\end{itemize}
+
+
+\item{$(a \oplus b)  \otimes c = (a \otimes c) \oplus (b \otimes c)$}\\
+\textbf{Caso base:}
+\begin{itemize}
+\item{$(0 \oplus 0)  \otimes 0 = (0 \otimes 0) \oplus (0 \otimes 0)$}
+\item{$ 0 \otimes 0 = 0 \oplus 0$}
+\item{$0 = 0$}
+
+\end{itemize}
+
+\textbf{Hipótesis inductiva:}
+\begin{itemize}
+\item{$(a \oplus b)  \otimes c = (a \otimes c) \oplus (b \otimes c)$}
+\item{$(a \oplus b)  \otimes (c + 1) = (a \otimes c + 1)) \oplus (b \otimes (c + 1))$}
+\item{$(a \oplus b)  \otimes c = (a \otimes c) \oplus (b \otimes c)$}
+\item{$(a \oplus b)  \otimes (c + 1) = (a \otimes (c + 1)) \oplus (b \otimes (c + 1))$}
+\item{$(a \oplus b)  \otimes c + (a \oplus b) = ac + a + bc + b$}
+\item{$(a \oplus b)  \otimes c + (a \oplus b) = (ac + bc) + a \oplus b$}
+\item{$(a \oplus b)  \otimes c + (a \oplus b) = (a \oplus b)  \otimes c + (a \oplus b)$}
+\end{itemize}
+
+\end{enumerate}
+\end{flushleft}
+\end{document}
